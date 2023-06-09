@@ -1,0 +1,20 @@
+.products__filter-btn {
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 45px;
+  color: #687984;
+  cursor: pointer;
+  border-bottom: .3rem solid transparent;
+  margin-bottom: -.15rem;
+  transition: color 0.1s linear;
+}
+
+.products__filter-btn:hover {
+  color: #FD865B;
+}
+
+.control-active {
+  color: #FD865B;
+  border-bottom: .3rem solid #FD865B;
+  margin-bottom: -.15rem;
+}

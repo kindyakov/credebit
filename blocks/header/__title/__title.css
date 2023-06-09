@@ -1,0 +1,11 @@
+.header__title {
+  font-weight: 800;
+  font-size: 4rem;
+  line-height: 4.5rem;
+  color: #152630;
+  margin-bottom: 3rem;
+}
+
+.header__title span {
+  color: #FD865B;
+}
