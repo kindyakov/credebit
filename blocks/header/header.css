@@ -1,10 +1,10 @@
-@import "__wrap/__wrap.css";
-@import "__logo/__logo.css";
-@import "__top/__top.css";
-@import "__clients/__clients.css";
-@import "__title/__title.css";
-@import "__content/__content.css";
-@import "__subtitle/__subtitle.css";
+@import "wrap/wrap.css";
+@import "logo/logo.css";
+@import "top/top.css";
+@import "clients/clients.css";
+@import "title/title.css";
+@import "content/content.css";
+@import "subtitle/subtitle.css";
 
 .header {
   background: #e9eef2;

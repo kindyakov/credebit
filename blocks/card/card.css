@@ -1,5 +1,5 @@
-@import "__logo/__logo.css";
-@import "__top/__top.css";
-@import "__title/__title.css";
-@import "__rate/__rate.css";
-@import "__content/__content.css";
+@import "logo/logo.css";
+@import "top/top.css";
+@import "title/title.css";
+@import "rate/rate.css";
+@import "content/content.css";

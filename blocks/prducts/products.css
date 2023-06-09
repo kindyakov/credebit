@@ -1,5 +1,5 @@
-@import "__filter/__filter.css";
-@import "__filter-btn/__filter-btn.css";
+@import "filter/filter.css";
+@import "filter-btn/filter-btn.css";
 
 
 
@@ -23,23 +23,23 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
 
-.credit-cards {
+/* .credit-cards {
   /* width: 20rem; */
-  /* height: 10rem; */
-  background-color: blueviolet;
-}
+/* height: 10rem; */
+/* background-color: blueviolet; */
+/* } */
 
-.debit-cards {
-  /* width: 20rem; */
-  /* height: 10rem; */
-  background-color: aqua;
-}
+/* .debit-cards { */
+/* width: 20rem; */
+/* height: 10rem; */
+/* background-color: aqua; */
+/* } */
 
-.loans {
-  /* width: 20rem; */
-  /* height: 10rem; */
-  background-color: chocolate;
-}
+/* .loans { */
+/* width: 20rem; */
+/* height: 10rem; */
+/* background-color: chocolate; */
+/* }  */
 
 .product__title {
   display: block;
