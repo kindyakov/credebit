@@ -1,1387 +1,1577 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <title>kreditdebit.ru</title>
+	<title>kreditdebit.ru</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230610233214">
+	<link rel="shortcut icon" href="img/favicon/Gulp.svg">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="_container">
+		<div class="header__wrap ">
+			<picture><source srcset="img/bg-header-1x.webp" type="image/webp"><img src="img/bg-header-1x.jpg" alt="фото" class="header__imgBg"></picture>
+			<div class="header__top">
+				<a href="/" class="header__logo">
+					<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Логотип"></picture>
+				</a>
+				<div class="header__clients">
+					<p>Более <span>100 000</span> довольных клиентов</p>
+				</div>
+			</div>
+			<div class="header__content">
+				<h1 class="header__title"><span>Реальный рейтинг</span> онлайн займов и кредитов <span>под 0%</span></h1>
+				<p class="header__subtitle">Огромный выбор ответов на ваши финансовые вопросы</p>
+			</div>
+		</div>
+	</div>
+</header>
+		<main class="page">
+			<section class="product">
+				<div class="product__filter">
+					<div class="_container">
+						<div class="product__filter-body">
+							<nav class="product__filter-nav">
+								<button class="product__filter-btn" href="#!" data-filter="all">Все продукты</button>
+								<button class="product__filter-btn" href="#!" data-filter=".credit">Кредиты</button>
+								<button class="product__filter-btn" href="#!" data-filter=".credit-cards">Кредитные карты</button>
+								<button class="product__filter-btn" href="#!" data-filter=".debit-cards">Дебетовые карты</button>
+								<button class="product__filter-btn" href="#!" data-filter=".loans">Займы</button>
+							</nav>
+							<div class="filter-burger product-burger">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+					</div>
+				</div>
 
-  <header class="header">
-    <div class="container">
-      <div class="header__wrap">
-        <div class="header__top">
-          <a href="/" class="header__logo">
-            <img src="blocks/header/img/logo.png" alt="Логотип">
-          </a>
-          <div class="header__clients">
-            <p>Более <span>100 000</span> довольных клиентов</p>
-          </div>
-        </div>
-        <div class="header__content">
-          <h1 class="header__title"><span>Реальный рейтинг</span> онлайн займов и кредитов <span>под 0%</span></h1>
-          <p class="header__subtitle">Огромный выбор ответов на ваши финансовые вопросы</p>
-        </div>
-      </div>
-    </div>
-  </header>
+				<div class="_container">
+					<div class="cards-list" id="cards-list">
+						<h2 class="product__title title">Кредиты</h2>
+						<ul class="product__list">
+							<li class="product__item card mix credit">
+								<div class="card__logo">
+									<picture><source srcset="img/otkritie-bank.webp" type="image/webp"><img class="card__img" src="img/otkritie-bank.png" alt="Банк открытие"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">Банк открытие</div>
+									<div class="card__rate">от <span>8,9</span> %</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-  <main class="main">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-    <section class="products">
-      <div class="products__filter">
-        <button class="products__filter-btn" href="#!" data-filter="all">Все продукты</button>
-        <button class="products__filter-btn" href="#!" data-filter=".credit">Кредиты</button>
-        <button class="products__filter-btn" href="#!" data-filter=".credit-cards">Кредитные карты</button>
-        <button class="products__filter-btn" href="#!" data-filter=".debit-cards">Дебетовые карты</button>
-        <button class="products__filter-btn" href="#!" data-filter=".loans">Займы</button>
-      </div>
+							</li>
+							<li class="product__item card mix credit">
+								<div class="card__logo">
+									<picture><source srcset="img/tinkoffbank.webp" type="image/webp"><img class="card__img" src="img/tinkoffbank.png" alt="Тинькофф Банк"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">Банк Тинькофф</div>
+									<div class="card__rate">от <span>8,9</span> %</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-      <div class="container">
-        <div class="cards-list" id="cards-list">
-          <div class="product__title title">Кредиты</div>
-          <ul class="products__list">
-            <li class="products__item card mix credit">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/otkritie-bank.png" alt="Банк открытие">
-              </div>
-              <div class="card__top">
-                <div class="card__title">Банк открытие</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+							</li>
+							<li class="product__item card mix credit">
+								<div class="card__logo">
+									<picture><source srcset="img/pochtabank.webp" type="image/webp"><img class="card__img" src="img/pochtabank.png" alt="Почта Банк"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">ПочтаБанк</div>
+									<div class="card__rate">от <span>8,9</span> %</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-            </li>
-            <li class="products__item card mix credit">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/tinkoffbank.png" alt="Тинькофф Банк">
-              </div>
-              <div class="card__top">
-                <div class="card__title">Банк Тинькофф</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+							</li>
+							<li class="product__item card mix credit">
+								<div class="card__logo">
+									<picture><source srcset="img/gazprombank.webp" type="image/webp"><img class="card__img" src="img/gazprombank.png" alt="Газпромбанк"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">Газпромбанк</div>
+									<div class="card__rate">от <span>8,9</span> %</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-            </li>
-            <li class="products__item card mix credit">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/pochtabank.png" alt="Почта Банк">
-              </div>
-              <div class="card__top">
-                <div class="card__title">ПочтаБанк</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+							</li>
+							<li class="product__item card mix credit">
+								<div class="card__logo">
+									<picture><source srcset="img/alfa.webp" type="image/webp"><img class="card__img" src="img/alfa.png" alt="Альфа Банк"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">АльфаБанк</div>
+									<div class="card__rate">от <span>8,9</span> %</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-            </li>
-            <li class="products__item card mix credit">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/gazprombank.png" alt="Газпромбанк">
-              </div>
-              <div class="card__top">
-                <div class="card__title">Газпромбанк</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+							</li>
+							<li class="product__item card mix credit">
+								<div class="card__logo">
+									<picture><source srcset="img/sovcombank.webp" type="image/webp"><img class="card__img" src="img/sovcombank.png" alt="СовкомБанк"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">СовкомБанк</div>
+									<div class="card__rate">от <span>8,9</span> %</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-            </li>
-            <li class="products__item card mix credit">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/alfa.png" alt="Альфа Банк">
-              </div>
-              <div class="card__top">
-                <div class="card__title">АльфаБанк</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+							</li>
+						</ul>
+						<h2 class="product__title title">Кредитные карты</h2>
+						<ul class="product__list">
+							<li class="product__item mix credit-cards">
+								<div class="card__logo">
+									<picture><source srcset="img/sovcombank.webp" type="image/webp"><img class="card__img" src="img/sovcombank.png" alt="СовкомБанк"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">СовкомБанк</div>
+									<div class="card__rate">от <span>8,9</span> %</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-            </li>
-            <li class="products__item card mix credit">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/sovcombank.png" alt="СовкомБанк">
-              </div>
-              <div class="card__top">
-                <div class="card__title">СовкомБанк</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+							</li>
+							<li class="product__item mix credit-cards">
+								<div class="card__logo">
+									<picture><source srcset="img/sovcombank.webp" type="image/webp"><img class="card__img" src="img/sovcombank.png" alt="СовкомБанк"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">СовкомБанк</div>
+									<div class="card__rate">от <span>8,9</span> %</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-            </li>
-          </ul>
-          <div class="product__title title">Кредитные карты</div>
-          <ul class="products__list">
-            <li class="products__item mix credit-cards">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/otkritie-bank.png" alt="Банк открытие">
-              </div>
-              <div class="card__top">
-                <div class="card__title">Банк открытие</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+							</li>
+							<li class="product__item mix credit-cards">
+								<div class="card__logo">
+									<picture><source srcset="img/sovcombank.webp" type="image/webp"><img class="card__img" src="img/sovcombank.png" alt="СовкомБанк"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">СовкомБанк</div>
+									<div class="card__rate">от <span>8,9</span> %</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-            </li>
-            <li class="products__item mix credit-cards">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/tinkoffbank.png" alt="Тинькофф Банк">
-              </div>
-              <div class="card__top">
-                <div class="card__title">Банк Тинькофф</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+							</li>
+							<li class="product__item mix credit-cards">
+								<div class="card__logo">
+									<picture><source srcset="img/sovcombank.webp" type="image/webp"><img class="card__img" src="img/sovcombank.png" alt="СовкомБанк"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">СовкомБанк</div>
+									<div class="card__rate">от <span>8,9</span> %</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-            </li>
-            <li class="products__item mix credit-cards">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/pochtabank.png" alt="Почта Банк">
-              </div>
-              <div class="card__top">
-                <div class="card__title">ПочтаБанк</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+							</li>
+							<li class="product__item mix credit-cards">
+								<div class="card__logo">
+									<picture><source srcset="img/sovcombank.webp" type="image/webp"><img class="card__img" src="img/sovcombank.png" alt="СовкомБанк"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">СовкомБанк</div>
+									<div class="card__rate">от <span>8,9</span> %</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-            </li>
-            <li class="products__item mix credit-cards">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/gazprombank.png" alt="Газпромбанк">
-              </div>
-              <div class="card__top">
-                <div class="card__title">Газпромбанк</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
+							</li>
+							<li class="product__item mix credit-cards">
+								<div class="card__logo">
+									<picture><source srcset="img/sovcombank.webp" type="image/webp"><img class="card__img" src="img/sovcombank.png" alt="СовкомБанк"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">СовкомБанк</div>
+									<div class="card__rate">от <span>8,9</span> %</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-            </li>
-            <li class="products__item mix credit-cards">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/alfa.png" alt="Альфа Банк">
-              </div>
-              <div class="card__top">
-                <div class="card__title">АльфаБанк</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+							</li>
+						</ul>
+						<h2 class="product__title title">Дебетовые карты</h2>
+						<ul class="product__list">
+							<li class="product__item mix debit-cards">
+								<div class="card__logo">
+									<picture><source srcset="img/sovcombank.webp" type="image/webp"><img class="card__img" src="img/sovcombank.png" alt="СовкомБанк"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">СовкомБанк</div>
+									<div class="card__rate">от <span>8,9</span> %</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-            </li>
-            <li class="products__item mix credit-cards">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/sovcombank.png" alt="СовкомБанк">
-              </div>
-              <div class="card__top">
-                <div class="card__title">СовкомБанк</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+							</li>
+							<li class="product__item mix debit-cards">
+								<div class="card__logo">
+									<picture><source srcset="img/sovcombank.webp" type="image/webp"><img class="card__img" src="img/sovcombank.png" alt="СовкомБанк"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">СовкомБанк</div>
+									<div class="card__rate">от <span>8,9</span> %</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-            </li>
-          </ul>
-          <div class="product__title title">Дебетовые карты</div>
-          <ul class="products__list">
-            <li class="products__item mix debit-cards">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/otkritie-bank.png" alt="Банк открытие">
-              </div>
-              <div class="card__top">
-                <div class="card__title">Банк открытие</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+							</li>
+							<li class="product__item mix debit-cards">
+								<div class="card__logo">
+									<picture><source srcset="img/sovcombank.webp" type="image/webp"><img class="card__img" src="img/sovcombank.png" alt="СовкомБанк"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">СовкомБанк</div>
+									<div class="card__rate">от <span>8,9</span> %</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-            </li>
-            <li class="products__item mix debit-cards">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/tinkoffbank.png" alt="Тинькофф Банк">
-              </div>
-              <div class="card__top">
-                <div class="card__title">Банк Тинькофф</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+							</li>
+							<li class="product__item mix debit-cards">
+								<div class="card__logo">
+									<picture><source srcset="img/sovcombank.webp" type="image/webp"><img class="card__img" src="img/sovcombank.png" alt="СовкомБанк"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">СовкомБанк</div>
+									<div class="card__rate">от <span>8,9</span> %</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-            </li>
-            <li class="products__item mix debit-cards">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/pochtabank.png" alt="Почта Банк">
-              </div>
-              <div class="card__top">
-                <div class="card__title">ПочтаБанк</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+							</li>
+							<li class="product__item mix debit-cards">
+								<div class="card__logo">
+									<picture><source srcset="img/sovcombank.webp" type="image/webp"><img class="card__img" src="img/sovcombank.png" alt="СовкомБанк"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">СовкомБанк</div>
+									<div class="card__rate">от <span>8,9</span> %</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-            </li>
-          </ul>
-          <div class="product__title title">Займы</div>
-          <ul class="products__list">
-            <li class="products__item mix loans">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/dengisrazu.png" alt="Займ Быстрый">
-              </div>
-              <div class="card__top">
-                <div class="card__title">Займ «Быстрый»</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+							</li>
+							<li class="product__item mix debit-cards">
+								<div class="card__logo">
+									<picture><source srcset="img/sovcombank.webp" type="image/webp"><img class="card__img" src="img/sovcombank.png" alt="СовкомБанк"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">СовкомБанк</div>
+									<div class="card__rate">от <span>8,9</span> %</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-            </li>
-            <li class="products__item mix loans">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/oneclickmoney.png" alt="Тинькофф Банк">
-              </div>
-              <div class="card__top">
-                <div class="card__title">Займ «Быстрый»</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+							</li>
+						</ul>
+						<h2 class="product__title title">Займы</h2>
+						<ul class="product__list">
+							<li class="product__item mix loans">
+								<div class="card__logo">
+									<picture><source srcset="img/dengisrazu.webp" type="image/webp"><img class="card__img" src="img/dengisrazu.png" alt="Деньги сразу"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">Займ «Быстрый»</div>
+									<div class="card__rate">от <span>5</span> % в день</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-            </li>
-            <li class="products__item mix loans">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/lime.png" alt="Почта Банк">
-              </div>
-              <div class="card__top">
-                <div class="card__title">Займ «Быстрый»</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+							</li>
+							<li class="product__item mix loans">
+								<div class="card__logo">
+									<picture><source srcset="img/oneclickmoney.webp" type="image/webp"><img class="card__img" src="img/oneclickmoney.png" alt="Деньги"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">Займ «Быстрый»</div>
+									<div class="card__rate">от <span>5</span> % в день</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-            </li>
-            <li class="products__item mix loans">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/dengisrazu.png" alt="Займ Быстрый">
-              </div>
-              <div class="card__top">
-                <div class="card__title">Займ «Быстрый»</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+							</li>
+							<li class="product__item mix loans">
+								<div class="card__logo">
+									<picture><source srcset="img/lime.webp" type="image/webp"><img class="card__img" src="img/lime.png" alt="Деньги"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">Займ «Быстрый»</div>
+									<div class="card__rate">от <span>5</span> % в день</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-            </li>
-            <li class="products__item mix loans">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/oneclickmoney.png" alt="Тинькофф Банк">
-              </div>
-              <div class="card__top">
-                <div class="card__title">Займ «Быстрый»</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+							</li>
+							<li class="product__item mix loans">
+								<div class="card__logo">
+									<picture><source srcset="img/dengisrazu.webp" type="image/webp"><img class="card__img" src="img/dengisrazu.png" alt="Деньги сразу"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">Займ «Быстрый»</div>
+									<div class="card__rate">от <span>5</span> % в день</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-            </li>
-            <li class="products__item mix loans">
-              <div class="card__logo">
-                <img class="card__img" src="blocks/card/img/lime.png" alt="Почта Банк">
-              </div>
-              <div class="card__top">
-                <div class="card__title">Займ «Быстрый»</div>
-                <div class="card__rate">от <span>8,9</span> %</div>
-              </div>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/amount.png" alt="Иконка денег">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Сумма</span>
-                        <span class="card__content-info">до 5 000 000 ₽</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/watch.png" alt="Иконка часов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Срок</span>
-                        <span class="card__content-info">до 5 лет</span>
-                      </div>
-                    </div>
-                  </div>
+							</li>
+							<li class="product__item mix loans">
+								<div class="card__logo">
+									<picture><source srcset="img/oneclickmoney.webp" type="image/webp"><img class="card__img" src="img/oneclickmoney.png" alt="Деньги"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">Займ «Быстрый»</div>
+									<div class="card__rate">от <span>5</span> % в день</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
-                  <div class="card__content-wp">
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/age.png" alt="Иконка человека">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Возраст</span>
-                        <span class="card__content-info">от 21 до 68 лет</span>
-                      </div>
-                    </div>
-                    <div class="card__amount card__content-box">
-                      <div class="card__content-wpImg">
-                        <img class="card__content-img" src="blocks/card/img/percent.png" alt="Иконка процентов">
-                      </div>
-                      <div class="card__content-text">
-                        <span class="card__content-name">Обслуживание</span>
-                        <span class="card__content-info">Бесплатно</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__footer">
-                  <button class="card__button btn-left">Подробнее</button>
-                  <button class="card__button btn-right">Оформить</button>
-                </div>
-              </div>
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
 
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section class="creditors">
-      <div class="container">
-        <div class="creditors__body">
-          <h3 class="creditors__title title">Информация о кредиторах, представленных на сайте</h3>
-          <div class="creditors__content">
-            <div class="creditors__block">
-              <div class="creditors__block-name">Банк открытие
-                <img src="blocks/creditos/img/Прямоугольник_5.png" alt="Прямоугольник">
-              </div>
-              <p class="creditors__block-text">
-                <span class="creditors__block-span">ПАО Банк ФК Открытие; ОГРН 1027739019208. Лицензия № 2209.</span>
-                <span class="creditors__block-span">Адрес: 115114, г. Москва, ул. Летниковская, д. 2, стр. 4</span>
-              </p>
-            </div>
-            <div class="creditors__block">
-              <div class="creditors__block-name">Банк открытие
-                <img src="blocks/creditos/img/Прямоугольник_5.png" alt="Прямоугольник">
-              </div>
-              <p class="creditors__block-text">
-                <span class="creditors__block-span">ПАО Банк ФК Открытие; ОГРН 1027739019208. Лицензия № 2209.</span>
-                <span class="creditors__block-span">Адрес: 115114, г. Москва, ул. Летниковская, д. 2, стр. 4</span>
-              </p>
-            </div>
-            <div class="creditors__block">
-              <div class="creditors__block-name">Банк открытие
-                <img src="blocks/creditos/img/Прямоугольник_5.png" alt="Прямоугольник">
-              </div>
-              <p class="creditors__block-text">
-                <span class="creditors__block-span">ПАО Банк ФК Открытие; ОГРН 1027739019208. Лицензия № 2209.</span>
-                <span class="creditors__block-span">Адрес: 115114, г. Москва, ул. Летниковская, д. 2, стр. 4</span>
-              </p>
-            </div>
-            <div class="creditors__block">
-              <div class="creditors__block-name">Банк открытие
-                <img src="blocks/creditos/img/Прямоугольник_5.png" alt="Прямоугольник">
-              </div>
-              <p class="creditors__block-text">
-                <span class="creditors__block-span">ПАО Банк ФК Открытие; ОГРН 1027739019208. Лицензия № 2209.</span>
-                <span class="creditors__block-span">Адрес: 115114, г. Москва, ул. Летниковская, д. 2, стр. 4</span>
-              </p>
-            </div>
-            <div class="creditors__block">
-              <div class="creditors__block-name">Банк открытие
-                <img src="blocks/creditos/img/Прямоугольник_5.png" alt="Прямоугольник">
-              </div>
-              <p class="creditors__block-text">
-                <span class="creditors__block-span">ПАО Банк ФК Открытие; ОГРН 1027739019208. Лицензия № 2209.</span>
-                <span class="creditors__block-span">Адрес: 115114, г. Москва, ул. Летниковская, д. 2, стр. 4</span>
-              </p>
-            </div>
-            <div class="creditors__block">
-              <div class="creditors__block-name">Банк открытие
-                <img src="blocks/creditos/img/Прямоугольник_5.png" alt="Прямоугольник">
-              </div>
-              <p class="creditors__block-text">
-                <span class="creditors__block-span">ПАО Банк ФК Открытие; ОГРН 1027739019208. Лицензия № 2209.</span>
-                <span class="creditors__block-span">Адрес: 115114, г. Москва, ул. Летниковская, д. 2, стр. 4</span>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="footer__body container">
-      <h2 class="footer__title">кредебит.рф</h2>
-      <div class="footer__content">
-        <p class="footer__text">это бесплатный информационный сервис, предоставляющий контент и справочную информацию о
-          кредитных картах,
-          кредитах, автокредитах, ипотечных и прочих займах и кредитах. Все товарные знаки и логотипы, представленные на
-          этом сайте, являются собственностью соответствующих владельцев и взяты из публичных источников.
-          кредитомаркет.рф не является кредитором или ипотечным/кредитным брокером и не предоставляет финансовые услуги
-          прямо или косвенно через представителей или агентов.</p>
-        <p class="footer__text">Не несет ответственности за точность информации, по тарифам, кредитным ставкам, а также
-          за любую другую
-          информацию.</p>
-      </div>
-      <img src="blocks/footer/img/kartinki-schastlivyh-lyudej-28.png" alt="kartinki-schastlivyh-lyudej" class="footer__imgBg">
-    </div>
-  </footer>
-  <script src="js/libs/jquery/jquery.min.js"></script>
-  <script src="js/libs/mixitup3/mixitup.min.js"></script>
-  <script src="js/script.js"></script>
+							</li>
+							<li class="product__item mix loans">
+								<div class="card__logo">
+									<picture><source srcset="img/lime.webp" type="image/webp"><img class="card__img" src="img/lime.png" alt="Деньги"></picture>
+								</div>
+								<div class="card__top">
+									<div class="card__title">Займ «Быстрый»</div>
+									<div class="card__rate">от <span>5</span> % в день</div>
+								</div>
+								<div class="card__body">
+									<div class="card__content">
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/amount.webp" type="image/webp"><img class="card__content-img" src="img/amount.png" alt="Иконка денег"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Сумма</span>
+													<span class="card__content-info">до 5 000 000 ₽</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/watch.webp" type="image/webp"><img class="card__content-img" src="img/watch.png" alt="Иконка часов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Возраст</span>
+													<span class="card__content-info">от 21 до 68 лет</span>
+												</div>
+											</div>
+										</div>
 
+										<div class="card__content-wp">
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/age.webp" type="image/webp"><img class="card__content-img" src="img/age.png" alt="Иконка человека"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Срок</span>
+													<span class="card__content-info">до 5 лет</span>
+												</div>
+											</div>
+											<div class=" card__content-box">
+												<div class="card__content-wpImg">
+													<picture><source srcset="img/percent.webp" type="image/webp"><img class="card__content-img" src="img/percent.png" alt="Иконка процентов"></picture>
+												</div>
+												<div class="card__content-text">
+													<span class="card__content-name">Обслуживание</span>
+													<span class="card__content-info">Бесплатно</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__footer">
+										<a href="card.html" class="card__button">Подробнее</a>
+										<a href="#" class="card__button">Оформить</a>
+									</div>
+								</div>
+
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</section>
+			<section class="creditors">
+				<div class="_container">
+					<div class="creditors__body">
+						<h3 class="creditors__title title">Информация о кредиторах, представленных на сайте</h3>
+						<div class="creditors__content">
+							<div class="creditors__block">
+								<div class="creditors__block-name">Банк открытие
+									<picture><source srcset="img/Прямоугольник_5.webp" type="image/webp"><img src="img/Прямоугольник_5.png" alt="Прямоугольник"></picture>
+								</div>
+								<p class="creditors__block-text">
+									<span class="creditors__block-span">ПАО Банк ФК Открытие; ОГРН 1027739019208. Лицензия № 2209.</span>
+									<span class="creditors__block-span">Адрес: 115114, г. Москва, ул. Летниковская, д. 2, стр. 4</span>
+								</p>
+							</div>
+							<div class="creditors__block">
+								<div class="creditors__block-name">Банк открытие
+									<picture><source srcset="img/Прямоугольник_5.webp" type="image/webp"><img src="img/Прямоугольник_5.png" alt="Прямоугольник"></picture>
+								</div>
+								<p class="creditors__block-text">
+									<span class="creditors__block-span">ПАО Банк ФК Открытие; ОГРН 1027739019208. Лицензия № 2209.</span>
+									<span class="creditors__block-span">Адрес: 115114, г. Москва, ул. Летниковская, д. 2, стр. 4</span>
+								</p>
+							</div>
+							<div class="creditors__block">
+								<div class="creditors__block-name">Банк открытие
+									<picture><source srcset="img/Прямоугольник_5.webp" type="image/webp"><img src="img/Прямоугольник_5.png" alt="Прямоугольник"></picture>
+								</div>
+								<p class="creditors__block-text">
+									<span class="creditors__block-span">ПАО Банк ФК Открытие; ОГРН 1027739019208. Лицензия № 2209.</span>
+									<span class="creditors__block-span">Адрес: 115114, г. Москва, ул. Летниковская, д. 2, стр. 4</span>
+								</p>
+							</div>
+							<div class="creditors__block">
+								<div class="creditors__block-name">Банк открытие
+									<picture><source srcset="img/Прямоугольник_5.webp" type="image/webp"><img src="img/Прямоугольник_5.png" alt="Прямоугольник"></picture>
+								</div>
+								<p class="creditors__block-text">
+									<span class="creditors__block-span">ПАО Банк ФК Открытие; ОГРН 1027739019208. Лицензия № 2209.</span>
+									<span class="creditors__block-span">Адрес: 115114, г. Москва, ул. Летниковская, д. 2, стр. 4</span>
+								</p>
+							</div>
+							<div class="creditors__block">
+								<div class="creditors__block-name">Банк открытие
+									<picture><source srcset="img/Прямоугольник_5.webp" type="image/webp"><img src="img/Прямоугольник_5.png" alt="Прямоугольник"></picture>
+								</div>
+								<p class="creditors__block-text">
+									<span class="creditors__block-span">ПАО Банк ФК Открытие; ОГРН 1027739019208. Лицензия № 2209.</span>
+									<span class="creditors__block-span">Адрес: 115114, г. Москва, ул. Летниковская, д. 2, стр. 4</span>
+								</p>
+							</div>
+							<div class="creditors__block">
+								<div class="creditors__block-name">Банк открытие
+									<picture><source srcset="img/Прямоугольник_5.webp" type="image/webp"><img src="img/Прямоугольник_5.png" alt="Прямоугольник"></picture>
+								</div>
+								<p class="creditors__block-text">
+									<span class="creditors__block-span">ПАО Банк ФК Открытие; ОГРН 1027739019208. Лицензия № 2209.</span>
+									<span class="creditors__block-span">Адрес: 115114, г. Москва, ул. Летниковская, д. 2, стр. 4</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+	<div class="_container">
+		<div class="footer__body ">
+			<h2 class="footer__title">кредебит.рф</h2>
+			<div class="footer__content">
+				<p class="footer__text">это бесплатный информационный сервис, предоставляющий контент и справочную информацию о
+					кредитных картах,
+					кредитах, автокредитах, ипотечных и прочих займах и кредитах. Все товарные знаки и логотипы, представленные на
+					этом сайте, являются собственностью соответствующих владельцев и взяты из публичных источников.
+					кредитомаркет.рф не является кредитором или ипотечным/кредитным брокером и не предоставляет финансовые услуги
+					прямо или косвенно через представителей или агентов.</p>
+				<p class="footer__text">Не несет ответственности за точность информации, по тарифам, кредитным ставкам, а также
+					за любую другую
+					информацию.</p>
+			</div>
+			<picture><source srcset="img/kartinki-schastlivyh-lyudej-28.webp" type="image/webp"><img src="img/kartinki-schastlivyh-lyudej-28.png" alt="kartinki-schastlivyh-lyudej" class="footer__imgBg"></picture>
+		</div>
+	</div>
+</footer>
+	</div>
+	<script src="libs/mixitup3/mixitup.min.js?_v=20230610233214"></script>
+<script src="js/app.min.js?_v=20230610233214"></script>
 </body>
 
 </html>
