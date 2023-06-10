@@ -1,8 +1,0 @@
-.products__filter {
-  display: flex;
-  justify-content: center;
-  gap: 6rem;
-  height: 8rem;
-  border-bottom: .1rem solid #CCD9E1;
-  margin-bottom: 5.5rem;
-}
